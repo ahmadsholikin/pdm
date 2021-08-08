@@ -1,0 +1,72 @@
+CRITICAL - 2021-06-13 05:10:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\helpdesk\app\Controllers\Backend\Konten\Berita.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Backend\Konten\Berita->index()
+#2 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Konten\Berita))
+#3 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 05:35:59 --> Unknown column 'updated_at' in 'field list'
+#0 C:\xampp\htdocs\helpdesk\system\Database\MySQLi\Connection.php(314): mysqli->query('INSERT INTO `be...')
+#1 C:\xampp\htdocs\helpdesk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `be...')
+#2 C:\xampp\htdocs\helpdesk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `be...')
+#3 C:\xampp\htdocs\helpdesk\system\Database\BaseBuilder.php(2263): CodeIgniter\Database\BaseConnection->query('INSERT INTO `be...', Array, false)
+#4 C:\xampp\htdocs\helpdesk\system\Model.php(278): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\helpdesk\system\BaseModel.php(758): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\helpdesk\system\Model.php(705): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\helpdesk\app\Controllers\Backend\Konten\Berita.php(99): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Backend\Konten\Berita->insert()
+#9 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Konten\Berita))
+#10 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-13 05:37:40 --> Undefined property: App\Controllers\Backend\Konten\Berita::$beritaModel
+#0 C:\xampp\htdocs\helpdesk\app\Controllers\Backend\Konten\Berita.php(48): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Backend\Konten\Berita->edit()
+#2 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Konten\Berita))
+#3 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-13 05:38:59 --> Undefined index: cover
+#0 C:\xampp\htdocs\helpdesk\app\Views\backend\konten\berita\page-edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\helpdesk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\helpdesk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\helpdesk\system\Common.php(1217): CodeIgniter\View\View->render('backend/konten/...', Array, true)
+#4 C:\xampp\htdocs\helpdesk\app\Controllers\Backend\Konten\Berita.php(64): view('backend/konten/...', Array)
+#5 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Backend\Konten\Berita->edit()
+#6 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Konten\Berita))
+#7 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-13 05:50:20 --> Undefined variable: rfaq
+#0 C:\xampp\htdocs\helpdesk\app\Views\frontend\home\page-index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\helpdesk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\helpdesk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\helpdesk\system\Common.php(1217): CodeIgniter\View\View->render('frontend/home/p...', Array, true)
+#4 C:\xampp\htdocs\helpdesk\app\Controllers\Frontend\Home\Main.php(21): view('frontend/home/p...', Array)
+#5 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Frontend\Home\Main->index()
+#6 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home\Main))
+#7 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-13 05:50:33 --> Undefined variable: rfaq
+#0 C:\xampp\htdocs\helpdesk\app\Views\frontend\home\page-index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\helpdesk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\helpdesk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\helpdesk\system\Common.php(1217): CodeIgniter\View\View->render('frontend/home/p...', Array, true)
+#4 C:\xampp\htdocs\helpdesk\app\Controllers\Frontend\Home\Main.php(21): view('frontend/home/p...', Array)
+#5 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Frontend\Home\Main->index()
+#6 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home\Main))
+#7 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-06-13 06:43:29 --> Undefined index: judul
+#0 C:\xampp\htdocs\helpdesk\app\Views\frontend\berita\page-index.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 6, Array)
+#1 C:\xampp\htdocs\helpdesk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\helpdesk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\helpdesk\system\Common.php(1217): CodeIgniter\View\View->render('frontend/berita...', Array, true)
+#4 C:\xampp\htdocs\helpdesk\app\Controllers\Frontend\Berita\Main.php(18): view('frontend/berita...', Array)
+#5 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Frontend\Berita\Main->index('testing-simulas...')
+#6 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Berita\Main))
+#7 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

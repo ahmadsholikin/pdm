@@ -1,0 +1,27 @@
+CRITICAL - 2021-06-14 08:45:39 --> Undefined variable: root_groups
+#0 G:\xampp\htdocs\helpdesk\app\Config\Routes.php(197): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'G:\\xampp\\htdocs...', 197, Array)
+#1 G:\xampp\htdocs\helpdesk\system\Router\RouteCollection.php(728): CodeIgniter\CodeIgniter->Config\{closure}(Object(CodeIgniter\Router\RouteCollection))
+#2 G:\xampp\htdocs\helpdesk\app\Config\Routes.php(198): CodeIgniter\Router\RouteCollection->group('formasi', Object(Closure))
+#3 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(803): require('G:\\xampp\\htdocs...')
+#4 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(385): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-06-14 08:46:00 --> Class 'App\Models\Konten\FormasiModel' not found
+#0 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(908): App\Controllers\Frontend\Formasi\Main->__construct()
+#1 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 08:46:01 --> Class 'App\Models\Konten\FormasiModel' not found
+#0 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(908): App\Controllers\Frontend\Formasi\Main->__construct()
+#1 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-06-14 13:06:02 --> Class 'App\Models\Option\MenuModel' not found
+#0 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(909): App\Controllers\BackendController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#1 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 G:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

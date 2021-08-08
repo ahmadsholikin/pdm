@@ -1,0 +1,74 @@
+CRITICAL - 2021-06-12 10:14:33 --> Argument 1 passed to view() must be of the type string, null given, called in C:\xampp\htdocs\helpdesk\app\Controllers\Pages\Auth\Auth.php on line 20
+#0 C:\xampp\htdocs\helpdesk\app\Controllers\Pages\Auth\Auth.php(20): view(NULL, Array)
+#1 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Pages\Auth\Auth->index()
+#2 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\Auth\Auth))
+#3 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 10:14:58 --> Undefined property: App\Controllers\Pages\Auth\Auth::$theme
+#0 C:\xampp\htdocs\helpdesk\app\Controllers\Pages\Auth\Auth.php(20): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Pages\Auth\Auth->index()
+#2 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\Auth\Auth))
+#3 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 10:17:01 --> Table 'helpdesk.pegawai' doesn't exist
+#0 C:\xampp\htdocs\helpdesk\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\helpdesk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\helpdesk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\helpdesk\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\helpdesk\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\helpdesk\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\helpdesk\app\Models\Auth\PegawaiModel.php(45): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\helpdesk\app\Controllers\Pages\Auth\Auth.php(82): App\Models\Auth\PegawaiModel->get(Array)
+#8 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Pages\Auth\Auth->sso()
+#9 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages\Auth\Auth))
+#10 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-12 10:19:55 --> Table 'helpdesk.periode_skp' doesn't exist
+#0 C:\xampp\htdocs\helpdesk\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\helpdesk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\helpdesk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\helpdesk\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\helpdesk\system\Model.php(174): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\helpdesk\system\BaseModel.php(518): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\helpdesk\app\Models\EntrianData\PeriodeSKPModel.php(88): CodeIgniter\BaseModel->find()
+#7 C:\xampp\htdocs\helpdesk\app\Controllers\Backend\Dashboard\Main.php(26): App\Models\EntrianData\PeriodeSKPModel->get(Array)
+#8 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Backend\Dashboard\Main->index()
+#9 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Dashboard\Main))
+#10 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-12 11:01:14 --> Table 'helpdesk.faq' doesn't exist
+#0 C:\xampp\htdocs\helpdesk\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\helpdesk\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\helpdesk\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\helpdesk\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\helpdesk\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\helpdesk\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\helpdesk\app\Models\Konten\FaqModel.php(32): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\helpdesk\app\Controllers\Backend\Konten\Faq.php(17): App\Models\Konten\FaqModel->get()
+#8 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Backend\Konten\Faq->index()
+#9 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Konten\Faq))
+#10 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2021-06-12 11:02:24 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\helpdesk\app\Controllers\Backend\Konten\Faq.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Backend\Konten\Faq->index()
+#2 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Konten\Faq))
+#3 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-06-12 11:03:56 --> Undefined index: id
+#0 C:\xampp\htdocs\helpdesk\app\Views\backend\konten\faq\page-index.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\helpdesk\system\View\View.php(220): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\helpdesk\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\helpdesk\system\Common.php(1217): CodeIgniter\View\View->render('backend/konten/...', Array, true)
+#4 C:\xampp\htdocs\helpdesk\app\Controllers\Backend\Konten\Faq.php(26): view('backend/konten/...', Array)
+#5 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(936): App\Controllers\Backend\Konten\Faq->index()
+#6 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Konten\Faq))
+#7 C:\xampp\htdocs\helpdesk\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\helpdesk\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
