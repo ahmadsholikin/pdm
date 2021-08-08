@@ -14,7 +14,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <!-- Vendor CSS Files -->
         <link href="<?=base_url();?>/public/frontend/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <link href="<?=base_url();?>/public/frontend/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
@@ -36,11 +36,11 @@
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="<?=base_url();?>#hero">Beranda</a></li>
-                    <li><a class="nav-link scrollto " href="<?=base_url();?>#portfolio">Petunjuk</a></li>
-                    <li><a class="nav-link scrollto" href="<?=base_url();?>#services">Aturan</a></li>
-                    <li><a class="nav-link scrollto" href="<?=base_url();?>#about">Infografis</a></li>
-                    <li><a class="nav-link scrollto" href="<?=base_url();?>#contact">Helpdesk</a></li>
+                    <li><a class="nav-link scrollto active animate__animated animate__slideInDown animate__faster" href="<?=base_url();?>#hero">Beranda</a></li>
+                    <li><a class="nav-link scrollto animate__animated animate__slideInDown animate__fast" href="<?=base_url();?>#portfolio">Petunjuk</a></li>
+                    <li><a class="nav-link scrollto animate__animated animate__slideInDown fast" href="<?=base_url();?>#services">Aturan</a></li>
+                    <li><a class="nav-link scrollto animate__animated animate__slideInDown " href="<?=base_url();?>#about">Infografis</a></li>
+                    <li><a class="nav-link scrollto animate__animated animate__slideInDown animate__slow" href="<?=base_url();?>#contact">Helpdesk</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->

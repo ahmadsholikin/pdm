@@ -3,13 +3,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-            <h1>Pemutakhiran Data Mandiri</h1>
-            <p>Pemutakhiran Data Mandiri ASN adalah proses peremajaan dan pembaharuan data secara mandiri yang bertujuan untuk mewujudkan data yang akurat, terkini, terpadu, berkualitas baik sehingga dapat menciptakan interoperabilitas data</p>
-            <h2>#DatamuTanggungjawabmu</h2>
-            <div><a href="#services" class="btn-get-started scrollto">Pelajari Lebih Lanjut</a></div>
+            <h1 class="animate__animated animate__fadeIn animate__faster">Pemutakhiran Data Mandiri</h1>
+            <p class="animate__animated animate__fadeIn animate__fast">Pemutakhiran Data Mandiri ASN adalah proses peremajaan dan pembaharuan data secara mandiri yang bertujuan untuk mewujudkan data yang akurat, terkini, terpadu, berkualitas baik sehingga dapat menciptakan interoperabilitas data</p>
+            <h2 class="animate__animated animate__fadeIn ">#DatamuTanggungjawabmu</h2>
+            <div><a href="#services" class="btn-get-started scrollto animate__animated animate__fadeIn animate__delay-1s">Pelajari Lebih Lanjut</a></div>
             </div>
-            <div class="col-lg-6 order-1 order-lg-2 hero-img">
-            <img src="<?= base_url(); ?>/public/assets/image/hero-bg.png" class="img-fluid" alt="">
+            <div class="col-lg-6 order-1 order-lg-2 hero-img animate__animated animate__bounceIn">
+                <img src="<?= base_url(); ?>/public/assets/image/hero-bg.png" class="img-fluid" alt="">
             </div>
         </div>
        
@@ -26,8 +26,8 @@
                 <p>Pelajari lebih lanjut mengenai petunjuk tata cara dalam proses pemutakhiran data mandiri pada beberapa info konten dibawah ini.</p>
             </div>
             <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-3 alur">
-                    <div class="card border-0">
+                <div class="col-sm-12 col-md-4 col-lg-3 alur" >
+                    <div class="card border-0 animate__animated animate__bounceIn animate__faster ">
                         <div class="card-body">
                             <center><img class="img-fluid" style="height: 250px;object-fit: contain;"  src="<?=base_url();?>/writable/uploads/pdm/alur-1.jpg" alt=""></center>
                             <h5 class="card-title">Unduh Aplikasi MySAPK</h5>
@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-3 alur">
-                    <div class="card border-0">
+                    <div class="card border-0 animate__animated animate__bounceIn animate__faster animate__delay-1s">
                         <div class="card-body">
                             <center><img class="img-fluid" style="height: 250px;object-fit: contain;"  src="<?=base_url();?>/writable/uploads/pdm/alur-2.jpg" alt=""></center>
                             <h5 class="card-title">Aktivasi Akun</h5>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-3 alur">
-                    <div class="card border-0">
+                    <div class="card border-0 animate__animated animate__bounceIn animate__faster animate__delay-2s">
                         <div class="card-body">
                             <center><img class="img-fluid" style="height: 250px;object-fit: contain;"  src="<?=base_url();?>/writable/uploads/pdm/alur-3.jpg" alt=""></center>
                             <h5 class="card-title">Cek Data Pribadi Anda</h5>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-3 alur">
-                    <div class="card border-0">
+                    <div class="card border-0 animate__animated animate__bounceIn animate__faster animate__delay-3s">
                         <div class="card-body">
                             <center><img class="img-fluid" style="height: 250px;object-fit: contain;"  src="<?=base_url();?>/writable/uploads/pdm/alur-4.jpg" alt=""></center>
                             <h5 class="card-title">Ajukan Pemutakhiran</h5>
@@ -63,7 +63,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-3 alur">
-                    <div class="card border-0">
+                    <div class="card border-0 animate__animated animate__bounceIn animate__faster animate__delay-4s">
                         <div class="card-body">
                             <center><img class="img-fluid" style="height: 250px;object-fit: contain;"  src="<?=base_url();?>/writable/uploads/pdm/alur-5.jpg" alt=""></center>
                             <h5 class="card-title">Tunggu Proses Verifikasi</h5>
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-4 col-lg-3 alur">
-                    <div class="card border-0">
+                    <div class="card border-0 animate__animated animate__bounceIn animate__faster animate__delay-5s">
                         <div class="card-body">
                             <center><img class="img-fluid" style="height: 250px;object-fit: contain;"  src="<?=base_url();?>/writable/uploads/pdm/alur-6.jpg" alt=""></center>
                             <h5 class="card-title">Notifikasi Perubahan Selesai</h5>
@@ -91,7 +91,7 @@
                 <p>Berikut merupakan beberapa aturan kebijakan mengenai pemutakhiran data mandiri di Pemerintah Kabupaten Magelang.</p>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-2 col-lg-2 alur">
+                <div class="col-sm-6 col-md-2 col-lg-2 alur animate__animated animate__bounceIn animate__fast">
                     <a href="<?=base_url();?>/writable/uploads/pdf/SE-PDM.pdf" target="_blank">
                         <div class="card border-0" style="background-color: transparent;">
                             <div class="card-body">
@@ -113,7 +113,7 @@
             </div>
             <div class="row">
                 <?php foreach ($berita as $row_berita) : ?>
-                <div class="col-sm-12 col-md-4 col-lg-3 infografis">
+                <div class="col-sm-12 col-md-4 col-lg-3 infografis animate__animated animate__bounceIn animate__fast">
                     <a class="venobox" href="<?=base_url();?>/writable/uploads/<?=$row_berita['cover'];?>" data-gall="pdm">
                         <div class="card">
                             <div class="card-body">
