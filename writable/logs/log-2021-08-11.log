@@ -1,0 +1,77 @@
+CRITICAL - 2021-08-11 07:58:49 --> Call to undefined method App\Models\Pendataan\DataUnorModel::wherer
+#0 C:\xampp\htdocs\pdm\app\Models\Pendataan\DataUnorModel.php(38): CodeIgniter\Model->__call('wherer', Array)
+#1 C:\xampp\htdocs\pdm\app\Controllers\Backend\Pendataan\DataUnor.php(17): App\Models\Pendataan\DataUnorModel->get()
+#2 C:\xampp\htdocs\pdm\system\CodeIgniter.php(936): App\Controllers\Backend\Pendataan\DataUnor->index()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendataan\DataUnor))
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-11 07:59:04 --> Call to undefined method App\Models\Pendataan\DataUnorModel::wherer
+#0 C:\xampp\htdocs\pdm\app\Models\Pendataan\DataUnorModel.php(38): CodeIgniter\Model->__call('wherer', Array)
+#1 C:\xampp\htdocs\pdm\app\Controllers\Backend\Pendataan\DataUnor.php(17): App\Models\Pendataan\DataUnorModel->get()
+#2 C:\xampp\htdocs\pdm\system\CodeIgniter.php(936): App\Controllers\Backend\Pendataan\DataUnor->index()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendataan\DataUnor))
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-11 08:12:49 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\pdm\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\pdm\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pdm\system\Common.php(1217): CodeIgniter\View\View->render('backend/pendata...', Array, true)
+#3 C:\xampp\htdocs\pdm\app\Controllers\Backend\Pendataan\DataUnor.php(26): view('backend/pendata...', Array)
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(936): App\Controllers\Backend\Pendataan\DataUnor->index()
+#5 C:\xampp\htdocs\pdm\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendataan\DataUnor))
+#6 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-11 08:13:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\pdm\system\View\View.php(220): include()
+#1 C:\xampp\htdocs\pdm\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\pdm\system\Common.php(1217): CodeIgniter\View\View->render('backend/pendata...', Array, true)
+#3 C:\xampp\htdocs\pdm\app\Controllers\Backend\Pendataan\DataUnor.php(26): view('backend/pendata...', Array)
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(936): App\Controllers\Backend\Pendataan\DataUnor->index()
+#5 C:\xampp\htdocs\pdm\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendataan\DataUnor))
+#6 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-08-11 08:55:47 --> syntax error, unexpected ';'
+#0 C:\xampp\htdocs\pdm\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\pdm\system\Common.php(1217): CodeIgniter\View\View->render('backend/pendata...', Array, true)
+#2 C:\xampp\htdocs\pdm\app\Controllers\Backend\Pendataan\DataUnorVerifikator.php(26): view('backend/pendata...', Array)
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(936): App\Controllers\Backend\Pendataan\DataUnorVerifikator->index()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendataan\DataUnorVerifikator))
+#5 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-08-11 09:01:52 --> Class 'App\Models\Link\LinkHirarkiModel' not found
+#0 C:\xampp\htdocs\pdm\system\CodeIgniter.php(908): App\Controllers\Backend\Option\Users->__construct()
+#1 C:\xampp\htdocs\pdm\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 09:02:02 --> Class 'App\Models\Link\LinkHirarkiModel' not found
+#0 C:\xampp\htdocs\pdm\system\CodeIgniter.php(908): App\Controllers\Backend\Option\Users->__construct()
+#1 C:\xampp\htdocs\pdm\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 13:42:08 --> Class 'App\Models\Link\LinkHirarkiModel' not found
+#0 C:\xampp\htdocs\pdm\system\CodeIgniter.php(908): App\Controllers\Backend\Option\Users->__construct()
+#1 C:\xampp\htdocs\pdm\system\CodeIgniter.php(422): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-08-11 13:48:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdm\app\Controllers\Backend\Pendataan\DataUnor.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\pdm\system\CodeIgniter.php(936): App\Controllers\Backend\Pendataan\DataUnor->index()
+#2 C:\xampp\htdocs\pdm\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendataan\DataUnor))
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-08-11 13:50:09 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\pdm\app\Controllers\Backend\Pendataan\DataRelasiUnor.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\pdm\system\CodeIgniter.php(936): App\Controllers\Backend\Pendataan\DataRelasiUnor->index()
+#2 C:\xampp\htdocs\pdm\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Pendataan\DataRelasiUnor))
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}

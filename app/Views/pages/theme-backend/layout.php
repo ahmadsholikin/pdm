@@ -47,7 +47,7 @@
         <div class="sidebar">
             <div class="sidebar-header">
                 <div>
-                    <a href="<?=base_url('public/backend');?>/index.html" class="sidebar-logo">
+                    <a href="<?=base_url('backend/beranda');?>" class="sidebar-logo">
                     <span><?=session('nama');?></span>
                     </a>
                     <small class="sidebar-logo-headline"><?=session('pengembang');?></small>
@@ -166,9 +166,6 @@
                                 <a href="" class="dropdown-item">
                                     <i data-feather="user"></i> View Profile
                                 </a>
-                                <a data-toggle="modal" data-target="#linkAtasanModal" class="dropdown-item" onclick="loadLink()">
-                                    <i data-feather="link"></i> Link Atasan
-                                </a>
                                 <a href="" class="dropdown-item">
                                     <i data-feather="briefcase"></i> Account Settings
                                 </a>
@@ -206,48 +203,7 @@
             </div>
             <!-- content-body -->
         </div>
-        <!-- content -->
-
-        <!-- modal link atasan -->
-        <div class="modal fade" id="linkAtasanModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalCenterTitle">Link ke Akun Atasan</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <label for="">Akun Terhubung : </label>
-                        <table class="table table-bordered table-striped table-condensed" id="linked">
-                            <thead>
-                                <tr>
-                                    <th>NIP</th>
-                                    <th>Nama</th>
-                                    <th>Aktif ?</th>
-                                    <th>Aksi</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                            </tbody>
-                        </table>
-                        <hr>
-                        <div class="form-row">
-                            <div class="col form-group">
-                                <label>Pencarian data akun</label>
-                                <input class="form-control form-control-sm" name="link_atasan_id" id="link_atasan_id" type="text" placeholder="Ketikkan NIP atau Nama Akun Atasan...">
-                                <div class="help-block with-errors"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-primary btn-sm" onclick="simpanLink()">Tambahkan Link Baru</button>
-                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Tutup</button>
-                    </div>
-                </div>
-            </div>
-        </div>    
+        <!-- content -->   
     </body>
 
     <!-- script -->
