@@ -1,0 +1,226 @@
+CRITICAL - 2021-08-09 02:47:26 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\pdm\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\pdm\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\pdm\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\pdm\index.php(36): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-08-09 02:49:29 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\pdm\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\pdm\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\pdm\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\pdm\index.php(36): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-08-09 02:51:08 --> The framework needs the following extension(s) installed and loaded: {0}.
+#0 C:\xampp\htdocs\pdm\system\CodeIgniter.php(224): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\pdm\system\CodeIgniter.php(172): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\pdm\system\bootstrap.php(159): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\pdm\index.php(36): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-08-09 07:52:40 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:53:21 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:53:39 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:53:49 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:55:14 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:55:59 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:56:00 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:56:01 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:56:44 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:56:45 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:56:45 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:31 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:32 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:32 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:33 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:33 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:33 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:33 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:33 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:34 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:34 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:57:34 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:58:48 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:58:49 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:58:49 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-08-09 07:58:49 --> Class 'CodeIgniter\Cache\CacheFactory' not found
+#0 C:\xampp\htdocs\pdm\system\Config\BaseService.php(100): CodeIgniter\Config\Services::cache(Object(Config\Cache), false)
+#1 C:\xampp\htdocs\pdm\system\Config\Services.php(103): CodeIgniter\Config\BaseService::getSharedInstance('cache', NULL)
+#2 C:\xampp\htdocs\pdm\system\Common.php(71): CodeIgniter\Config\Services::cache()
+#3 C:\xampp\htdocs\pdm\system\CodeIgniter.php(658): cache()
+#4 C:\xampp\htdocs\pdm\system\CodeIgniter.php(319): CodeIgniter\CodeIgniter->displayCache(Object(Config\Cache))
+#5 C:\xampp\htdocs\pdm\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
