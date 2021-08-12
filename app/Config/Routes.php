@@ -181,6 +181,47 @@ $routes->group('backend', function ($routes) {
         $routes->post('update', $root_groups . '::update', ['filter' => 'auth']);
         $routes->get('delete', $root_groups . '::delete', ['filter' => 'auth']);
     });
+
+
+
+    $routes->group('data-unor', function ($routes) {
+        $root_groups = "Backend\Pendataan\DataUnor";
+        //pages
+        $routes->add('/', $root_groups . '::index', ['filter' => 'auth']);
+        $routes->add('add', $root_groups . '::add', ['filter' => 'auth']);
+        $routes->get('edit', $root_groups . '::edit', ['filter' => 'auth']);
+        //process
+        $routes->post('insert', $root_groups . '::insert', ['filter' => 'auth']);
+        $routes->post('update', $root_groups . '::update', ['filter' => 'auth']);
+        $routes->get('delete', $root_groups . '::delete', ['filter' => 'auth']);
+    });
+
+    $routes->group('data-unor-verifikator', function ($routes) {
+        $root_groups = "Backend\Pendataan\DataUnorVerifikator";
+        //pages
+        $routes->add('/', $root_groups . '::index', ['filter' => 'auth']);
+        $routes->add('add', $root_groups . '::add', ['filter' => 'auth']);
+        $routes->get('edit', $root_groups . '::edit', ['filter' => 'auth']);
+        //process
+        $routes->post('insert', $root_groups . '::insert', ['filter' => 'auth']);
+        $routes->post('update', $root_groups . '::update', ['filter' => 'auth']);
+        $routes->get('delete', $root_groups . '::delete', ['filter' => 'auth']);
+        $routes->get('export', $root_groups . '::export', ['filter' => 'auth']);
+    });
+
+
+    $routes->group('data-relasi-unor', function ($routes) {
+        $root_groups = "Backend\Pendataan\DataRelasiUnor";
+        //pages
+        $routes->add('/', $root_groups . '::index', ['filter' => 'auth']);
+        $routes->add('add', $root_groups . '::add', ['filter' => 'auth']);
+        $routes->get('edit', $root_groups . '::edit', ['filter' => 'auth']);
+        //process
+        $routes->post('insert', $root_groups . '::insert', ['filter' => 'auth']);
+        $routes->post('update', $root_groups . '::update', ['filter' => 'auth']);
+        $routes->get('delete', $root_groups . '::delete', ['filter' => 'auth']);
+        $routes->get('export', $root_groups . '::export', ['filter' => 'auth']);
+    });
     
 
 });

@@ -12240,7 +12240,7 @@ body {
     left: -230px;
     z-index: 20;
     background-color: #fff;
-    border-top:3px solid #f44336;
+    border-top:3px solid #9c27b0;
 }
 @media (min-width: 992px) {
     .sidebar {
@@ -12283,12 +12283,11 @@ body {
     height: 24px;
 }
 .sidebar-logo, .sidebar-logo:hover, .sidebar-logo:focus {
-    color: #f44336;
+    color: #9c27b0;
 }
 .sidebar-logo span {
     display: block;
     font-size: 24px;
-    font-family: "Oswald", sans-serif;
     font-weight: 500;
     letter-spacing: -.5px;
     position: relative;
@@ -12302,7 +12301,6 @@ body {
 .sidebar-logo-headline {
     font-size: 9px;
     font-weight: 400;
-    font-family: "Oswald", sans-serif;
     color: #373857;
     white-space: nowrap;
     display: none;
@@ -12428,10 +12426,10 @@ body {
     white-space: nowrap;
 }
 .nav-sidebar .nav-sub-link:hover, .nav-sidebar .nav-sub-link:focus {
-    color: #f44336;
+    color: #9c27b0;
 }
 .nav-sidebar .nav-sub-link.active {
-    color: #f44336;
+    color: #9c27b0;
     font-weight: 500;
     position: relative;
 }
@@ -12524,10 +12522,10 @@ body {
     color: #373857;
 }
 .content-header .breadcrumb-item a:hover, .content-header .breadcrumb-item a:focus {
-    color: #f44336;
+    color: #9c27b0;
 }
 .content-header .breadcrumb-item.active {
-    color: #f44336;
+    color: #9c27b0;
 }
 .content-title {
     font-size: 24px;
@@ -12640,7 +12638,7 @@ body {
     background-color: #fff;
     border-bottom: 1px solid rgba(230, 231, 239, 0.85);
     transition: all 0.25s;
-    border-top:3px solid #f44336;
+    border-top:3px solid #9c27b0;
 }
 @media (prefers-reduced-motion: reduce) {
     .header {
